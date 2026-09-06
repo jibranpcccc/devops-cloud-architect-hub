@@ -300,12 +300,14 @@
           }
         }
       ]
-    }
-  ,
+    },
     {
       "@type": "SpeakableSpecification",
       "@id": "https://jibranpcccc.github.io/devops-cloud-architect-hub/#speakable",
-      "cssSelector": [".geo-answer-block h2", ".geo-answer-block p"]
+      "cssSelector": [
+        ".geo-answer-block h2",
+        ".geo-answer-block p"
+      ]
     }
   ]
 }
@@ -442,11 +444,11 @@
 
         .tags-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
         .tag { font-size: 0.72rem; color: var(--accent-cyan); font-family: var(--terminal-font); background: rgba(6,182,212,0.08); padding: 2px 6px; border-radius: 3px; }
-        .card-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 14px; }
+        .card-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; border-top: 1px solid var(--border); padding-top: 14px; }
         .activity-pulse { font-size: 0.8rem; color: #10b981; display: flex; align-items: center; gap: 6px; font-family: var(--terminal-font); }
         .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: #10b981; box-shadow: 0 0 8px #10b981; }
         
-        .card-actions { display: flex; gap: 8px; align-items: center; }
+        .card-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
         .btn-copy-invite { background: rgba(255,255,255,0.05); color: var(--muted); border: 1px solid var(--border); padding: 7px 12px; border-radius: 4px; font-size: 0.8rem; font-family: var(--terminal-font); cursor: pointer; transition: all 0.2s; }
         .btn-copy-invite:hover { background: rgba(255,255,255,0.12); color: #fff; }
         .btn-copy-invite.copied { background: rgba(16, 185, 129, 0.2); color: #10b981; border-color: #10b981; }
@@ -584,7 +586,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-1" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-1')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-1" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -604,7 +609,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-2" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-2')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-2" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -624,7 +632,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-3" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-3')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-3" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -644,7 +655,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-4" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-4')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-4" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -664,7 +678,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-5" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-5')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-5" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -684,7 +701,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-6" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-6')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-6" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -704,7 +724,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-7" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-7')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-7" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -724,7 +747,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-8" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-8')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-8" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -744,7 +770,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-9" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-9')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-9" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -764,7 +793,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-10" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-10')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-10" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -784,7 +816,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-11" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-11')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-11" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -804,7 +839,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-12" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-12')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-12" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -824,7 +862,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-13" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-13')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-13" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -844,7 +885,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-14" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-14')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-14" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -864,7 +908,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-15" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-15')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-15" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -884,7 +931,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-16" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-16')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-16" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -904,7 +954,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-17" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-17')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-17" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -924,7 +977,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-18" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-18')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-18" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -944,7 +1000,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-19" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-19')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-19" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -964,7 +1023,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-20" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-20')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-20" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -984,7 +1046,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-21" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-21')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-21" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1004,7 +1069,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-22" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-22')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-22" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1024,7 +1092,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-23" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-23')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-23" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1044,7 +1115,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-24" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-24')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-24" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1064,7 +1138,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-25" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-25')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-25" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1084,7 +1161,10 @@
             <div class="tags-row"><span class="tag">#kubernetes</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-26" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-26')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-26" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1104,7 +1184,10 @@
             <div class="tags-row"><span class="tag">#docker</span><span class="tag">#whatsapp</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-27" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-27')">📋 Copy Invite Link</button>
+                    <a href="https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-27" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1124,7 +1207,10 @@
             <div class="tags-row"><span class="tag">#aws-certifications</span><span class="tag">#reddit</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-28" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-28')">📋 Copy Invite Link</button>
+                    <a href="https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-28" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1144,7 +1230,10 @@
             <div class="tags-row"><span class="tag">#terraform</span><span class="tag">#telegram</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-29" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-29')">📋 Copy Invite Link</button>
+                    <a href="https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-29" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1164,7 +1253,10 @@
             <div class="tags-row"><span class="tag">#ci/cd</span><span class="tag">#discord</span><span class="tag">#networking</span><span class="tag">#verified</span></div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-30" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, 'https://discord.com/community/devops-&-cloud-architecture-hub-discord-30')">📋 Copy Invite Link</button>
+                    <a href="https://discord.com/community/devops-&-cloud-architecture-hub-discord-30" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         
@@ -1266,16 +1358,35 @@
     </script>
 
     <script>
-    function copyInviteLink(url, btn) {
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(url).then(() => {
-                const orig = btn.innerHTML;
-                btn.innerHTML = "✓ Copied!";
-                btn.classList.add("copied");
-                setTimeout(() => {
-                    btn.innerHTML = orig;
-                    btn.classList.remove("copied");
-                }, 2000);
+        // Copy Invite Link with Interactive Feedback
+    function copyInviteLink(event, url) {
+        if (event && event.preventDefault) event.preventDefault();
+        if (event && event.stopPropagation) event.stopPropagation();
+        var targetUrl = (typeof event === 'string') ? event : url;
+        var btn = (typeof event === 'string') ? url : (event ? (event.currentTarget || event.target) : null);
+        if (!btn && typeof this !== 'undefined') btn = this;
+        if (btn && btn.closest) {
+            btn = btn.closest('.btn-copy-invite') || btn;
+        }
+        if (!targetUrl || targetUrl === '#') return;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(targetUrl).then(function() {
+                if (btn) {
+                    var origHtml = btn.innerHTML;
+                    btn.innerHTML = '<span>✓ Copied!</span>';
+                    btn.classList.add('copied');
+                    setTimeout(function() {
+                        btn.innerHTML = origHtml;
+                        btn.classList.remove('copied');
+                    }, 2000);
+                }
+            }).catch(function() {
+                window.open(targetUrl, '_blank');
+            });
+        } else {
+            window.open(targetUrl, '_blank');
+        }
+    }
             });
         }
     }
