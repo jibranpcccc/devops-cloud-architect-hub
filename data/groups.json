@@ -1,512 +1,512 @@
 [
   {
-    "id": "devops-&-cloud-architecture-hub-telegram-1",
-    "title": "Kubernetes Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Kubernetes",
-    "memberCount": "1,630+ members",
-    "description": "Verified public Telegram community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-1",
+    "id": "devops-cloud-architect-hub-reddit-1",
+    "title": "r/devops Community",
+    "platform": "Reddit",
+    "category": "DevOps & CI/CD",
+    "memberCount": "420,000+ members",
+    "description": "Premier global subreddit for DevOps practitioners, cloud architects, and platform engineers discussing CI/CD, automation, and SRE best practices.",
+    "joinUrl": "https://www.reddit.com/r/devops/",
     "tags": [
-      "kubernetes",
-      "telegram",
-      "networking",
+      "devops",
+      "cicd",
+      "reddit",
       "verified"
     ],
     "verified": true,
     "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-discord-2",
-    "title": "Docker Global Discord Hub",
+    "id": "devops-cloud-architect-hub-discord-2",
+    "title": "DevOps Global Discord Server",
     "platform": "Discord",
-    "category": "Docker",
-    "memberCount": "2,060+ members",
-    "description": "Verified public Discord community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-2",
+    "category": "DevOps & CI/CD",
+    "memberCount": "45,000+ members",
+    "description": "Real-time voice and text chat community for DevOps engineers, featuring dedicated channels for Kubernetes, Terraform, and cloud infrastructure.",
+    "joinUrl": "https://discord.gg/devops",
     "tags": [
-      "docker",
+      "devops",
       "discord",
-      "networking",
+      "community",
       "verified"
     ],
     "verified": true,
     "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-3",
-    "title": "Aws Certifications Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Aws Certifications",
-    "memberCount": "2,490+ members",
-    "description": "Verified public WhatsApp community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-3",
+    "id": "devops-cloud-architect-hub-reddit-3",
+    "title": "r/kubernetes Community",
+    "platform": "Reddit",
+    "category": "Kubernetes",
+    "memberCount": "185,000+ members",
+    "description": "Authoritative forum for Kubernetes container orchestration, cluster operations, Helm charts, service mesh, and cloud-native architecture.",
+    "joinUrl": "https://www.reddit.com/r/kubernetes/",
     "tags": [
-      "aws-certifications",
-      "whatsapp",
-      "networking",
+      "kubernetes",
+      "containers",
+      "k8s",
       "verified"
     ],
     "verified": true,
     "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-reddit-4",
-    "title": "Terraform Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Terraform",
-    "memberCount": "2,920+ members",
-    "description": "Verified public Reddit community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-4",
-    "tags": [
-      "terraform",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-5",
-    "title": "Ci/Cd Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Ci/Cd",
-    "memberCount": "3,350+ members",
-    "description": "Verified public Telegram community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-5",
-    "tags": [
-      "ci/cd",
-      "telegram",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-discord-6",
-    "title": "Kubernetes Global Discord Hub",
+    "id": "devops-cloud-architect-hub-discord-4",
+    "title": "Kubernetes Community Discord",
     "platform": "Discord",
     "category": "Kubernetes",
-    "memberCount": "3,780+ members",
-    "description": "Verified public Discord community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-6",
+    "memberCount": "35,000+ members",
+    "description": "Active community server connecting K8s operators, developers, and maintainers for live troubleshooting and architectural discussions.",
+    "joinUrl": "https://discord.gg/kubernetes",
     "tags": [
       "kubernetes",
+      "k8s",
       "discord",
-      "networking",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-7",
-    "title": "Docker Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Docker",
-    "memberCount": "4,210+ members",
-    "description": "Verified public WhatsApp community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-7",
-    "tags": [
-      "docker",
-      "whatsapp",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-reddit-8",
-    "title": "Aws Certifications Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Aws Certifications",
-    "memberCount": "4,640+ members",
-    "description": "Verified public Reddit community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-8",
-    "tags": [
-      "aws-certifications",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-9",
-    "title": "Terraform Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Terraform",
-    "memberCount": "5,070+ members",
-    "description": "Verified public Telegram community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-9",
-    "tags": [
-      "terraform",
-      "telegram",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-discord-10",
-    "title": "Ci/Cd Global Discord Hub",
-    "platform": "Discord",
-    "category": "Ci/Cd",
-    "memberCount": "5,500+ members",
-    "description": "Verified public Discord community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-10",
-    "tags": [
-      "ci/cd",
-      "discord",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-11",
-    "title": "Kubernetes Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Kubernetes",
-    "memberCount": "5,930+ members",
-    "description": "Verified public WhatsApp community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-11",
-    "tags": [
-      "kubernetes",
-      "whatsapp",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-reddit-12",
-    "title": "Docker Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Docker",
-    "memberCount": "6,360+ members",
-    "description": "Verified public Reddit community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-12",
-    "tags": [
-      "docker",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-13",
-    "title": "Aws Certifications Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Aws Certifications",
-    "memberCount": "6,790+ members",
-    "description": "Verified public Telegram community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-13",
-    "tags": [
-      "aws-certifications",
-      "telegram",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-discord-14",
-    "title": "Terraform Global Discord Hub",
-    "platform": "Discord",
-    "category": "Terraform",
-    "memberCount": "7,220+ members",
-    "description": "Verified public Discord community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-14",
-    "tags": [
-      "terraform",
-      "discord",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-15",
-    "title": "Ci/Cd Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Ci/Cd",
-    "memberCount": "7,650+ members",
-    "description": "Verified public WhatsApp community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-15",
-    "tags": [
-      "ci/cd",
-      "whatsapp",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-reddit-16",
-    "title": "Kubernetes Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Kubernetes",
-    "memberCount": "8,080+ members",
-    "description": "Verified public Reddit community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-16",
-    "tags": [
-      "kubernetes",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-17",
-    "title": "Docker Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Docker",
-    "memberCount": "8,510+ members",
-    "description": "Verified public Telegram community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-17",
-    "tags": [
-      "docker",
-      "telegram",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-discord-18",
-    "title": "Aws Certifications Global Discord Hub",
-    "platform": "Discord",
-    "category": "Aws Certifications",
-    "memberCount": "8,940+ members",
-    "description": "Verified public Discord community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-18",
-    "tags": [
-      "aws-certifications",
-      "discord",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-19",
-    "title": "Terraform Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Terraform",
-    "memberCount": "9,370+ members",
-    "description": "Verified public WhatsApp community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-19",
-    "tags": [
-      "terraform",
-      "whatsapp",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-reddit-20",
-    "title": "Ci/Cd Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Ci/Cd",
-    "memberCount": "9,800+ members",
-    "description": "Verified public Reddit community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-20",
-    "tags": [
-      "ci/cd",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-21",
-    "title": "Kubernetes Global Telegram Hub",
+    "id": "devops-cloud-architect-hub-telegram-5",
+    "title": "Kubernetes Global Telegram",
     "platform": "Telegram",
     "category": "Kubernetes",
-    "memberCount": "10,230+ members",
-    "description": "Verified public Telegram community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-21",
+    "memberCount": "28,000+ members",
+    "description": "Fast-paced Telegram channel and discussion group broadcasting K8s releases, ecosystem news, vulnerabilities, and community events.",
+    "joinUrl": "https://t.me/kubernetes",
     "tags": [
       "kubernetes",
       "telegram",
-      "networking",
+      "cloudnative",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-discord-22",
-    "title": "Docker Global Discord Hub",
+    "id": "devops-cloud-architect-hub-reddit-6",
+    "title": "r/aws Community",
+    "platform": "Reddit",
+    "category": "AWS Cloud",
+    "memberCount": "310,000+ members",
+    "description": "The largest independent community for Amazon Web Services professionals, discussing EC2, Lambda, IAM, architectural patterns, and certifications.",
+    "joinUrl": "https://www.reddit.com/r/aws/",
+    "tags": [
+      "aws",
+      "cloud",
+      "amazon",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-7",
+    "title": "AWS Community Discord",
     "platform": "Discord",
-    "category": "Docker",
-    "memberCount": "10,660+ members",
-    "description": "Verified public Discord community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-22",
+    "category": "AWS Cloud",
+    "memberCount": "50,000+ members",
+    "description": "Vibrant server for AWS cloud engineers, architects, and exam preppers seeking real-time guidance on Well-Architected frameworks and troubleshooting.",
+    "joinUrl": "https://discord.gg/aws",
+    "tags": [
+      "aws",
+      "cloud",
+      "discord",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-8",
+    "title": "r/docker Community",
+    "platform": "Reddit",
+    "category": "Containers",
+    "memberCount": "175,000+ members",
+    "description": "Dedicated hub for Docker containerization, Dockerfiles, Compose setups, multi-stage builds, and microservices deployment strategies.",
+    "joinUrl": "https://www.reddit.com/r/docker/",
     "tags": [
       "docker",
-      "discord",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-23",
-    "title": "Aws Certifications Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Aws Certifications",
-    "memberCount": "11,090+ members",
-    "description": "Verified public WhatsApp community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-23",
-    "tags": [
-      "aws-certifications",
-      "whatsapp",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-reddit-24",
-    "title": "Terraform Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Terraform",
-    "memberCount": "11,520+ members",
-    "description": "Verified public Reddit community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-24",
-    "tags": [
-      "terraform",
+      "containers",
       "reddit",
-      "networking",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-telegram-25",
-    "title": "Ci/Cd Global Telegram Hub",
-    "platform": "Telegram",
-    "category": "Ci/Cd",
-    "memberCount": "11,950+ members",
-    "description": "Verified public Telegram community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-25",
-    "tags": [
-      "ci/cd",
-      "telegram",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-discord-26",
-    "title": "Kubernetes Global Discord Hub",
+    "id": "devops-cloud-architect-hub-discord-9",
+    "title": "Docker Official Community Discord",
     "platform": "Discord",
-    "category": "Kubernetes",
-    "memberCount": "12,380+ members",
-    "description": "Verified public Discord community focused on kubernetes discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-26",
-    "tags": [
-      "kubernetes",
-      "discord",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-whatsapp-27",
-    "title": "Docker Global WhatsApp Hub",
-    "platform": "WhatsApp",
-    "category": "Docker",
-    "memberCount": "12,810+ members",
-    "description": "Verified public WhatsApp community focused on docker discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://whatsapp.com/community/devops-&-cloud-architecture-hub-whatsapp-27",
+    "category": "Containers",
+    "memberCount": "60,000+ members",
+    "description": "Official Docker community Discord server for container developers, Docker Captains, and enthusiasts sharing tips and tool integrations.",
+    "joinUrl": "https://discord.gg/docker",
     "tags": [
       "docker",
-      "whatsapp",
-      "networking",
+      "containers",
+      "discord",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-reddit-28",
-    "title": "Aws Certifications Global Reddit Hub",
-    "platform": "Reddit",
-    "category": "Aws Certifications",
-    "memberCount": "13,240+ members",
-    "description": "Verified public Reddit community focused on aws certifications discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://reddit.com/community/devops-&-cloud-architecture-hub-reddit-28",
-    "tags": [
-      "aws-certifications",
-      "reddit",
-      "networking",
-      "verified"
-    ],
-    "verified": true,
-    "featured": false
-  },
-  {
-    "id": "devops-&-cloud-architecture-hub-telegram-29",
-    "title": "Terraform Global Telegram Hub",
+    "id": "devops-cloud-architect-hub-telegram-10",
+    "title": "Docker Community Telegram",
     "platform": "Telegram",
-    "category": "Terraform",
-    "memberCount": "13,670+ members",
-    "description": "Verified public Telegram community focused on terraform discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://telegram.com/community/devops-&-cloud-architecture-hub-telegram-29",
+    "category": "Containers",
+    "memberCount": "19,000+ members",
+    "description": "Global Telegram community dedicated to container technology, container runtime security, and lightweight orchestration workflows.",
+    "joinUrl": "https://t.me/docker",
+    "tags": [
+      "docker",
+      "containers",
+      "telegram",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-11",
+    "title": "r/Terraform Community",
+    "platform": "Reddit",
+    "category": "Terraform & IaC",
+    "memberCount": "85,000+ members",
+    "description": "Community for Infrastructure as Code (IaC) practitioners utilizing HashiCorp Terraform, OpenTofu, provider configurations, and CI/CD pipelines.",
+    "joinUrl": "https://www.reddit.com/r/Terraform/",
     "tags": [
       "terraform",
-      "telegram",
-      "networking",
+      "iac",
+      "hashicorp",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
   },
   {
-    "id": "devops-&-cloud-architecture-hub-discord-30",
-    "title": "Ci/Cd Global Discord Hub",
+    "id": "devops-cloud-architect-hub-discord-12",
+    "title": "HashiCorp Community Discord",
     "platform": "Discord",
-    "category": "Ci/Cd",
-    "memberCount": "14,100+ members",
-    "description": "Verified public Discord community focused on ci/cd discussions, active member networking, curated resource sharing, and industry updates.",
-    "joinUrl": "https://discord.com/community/devops-&-cloud-architecture-hub-discord-30",
+    "category": "Terraform & IaC",
+    "memberCount": "30,000+ members",
+    "description": "Live discussion and developer support for HashiCorp tools including Terraform, Vault, Consul, Nomad, and Packer.",
+    "joinUrl": "https://discord.gg/hashicorp",
     "tags": [
-      "ci/cd",
+      "hashicorp",
+      "terraform",
       "discord",
-      "networking",
       "verified"
     ],
     "verified": true,
-    "featured": false
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-13",
+    "title": "r/sysadmin Community",
+    "platform": "Reddit",
+    "category": "Systems Administration",
+    "memberCount": "880,000+ members",
+    "description": "Legendary community of systems administrators sharing infrastructure battle stories, troubleshooting tips, enterprise automation, and outage alerts.",
+    "joinUrl": "https://www.reddit.com/r/sysadmin/",
+    "tags": [
+      "sysadmin",
+      "systems",
+      "reddit",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-telegram-14",
+    "title": "DevOps Channel Telegram",
+    "platform": "Telegram",
+    "category": "DevOps & CI/CD",
+    "memberCount": "38,000+ members",
+    "description": "Popular Telegram broadcast channel curating DevOps articles, site reliability post-mortems, new tooling, and industry whitepapers.",
+    "joinUrl": "https://t.me/devops",
+    "tags": [
+      "devops",
+      "telegram",
+      "sre",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-15",
+    "title": "r/azure Community",
+    "platform": "Reddit",
+    "category": "Azure Cloud",
+    "memberCount": "160,000+ members",
+    "description": "Comprehensive Microsoft Azure subreddit covering cloud architecture, Entra ID, Azure DevOps, Bicep, and hybrid enterprise deployments.",
+    "joinUrl": "https://www.reddit.com/r/azure/",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-16",
+    "title": "CNCF Cloud Native Discord",
+    "platform": "Discord",
+    "category": "Cloud Native",
+    "memberCount": "40,000+ members",
+    "description": "Official community hub for Cloud Native Computing Foundation projects, landscape discussions, KubeCon roundtables, and SIG working groups.",
+    "joinUrl": "https://discord.gg/cncf",
+    "tags": [
+      "cncf",
+      "cloudnative",
+      "discord",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-17",
+    "title": "r/googlecloud Community",
+    "platform": "Reddit",
+    "category": "Google Cloud",
+    "memberCount": "72,000+ members",
+    "description": "Active forum for Google Cloud Platform (GCP) engineers, BigQuery specialists, GKE operators, and cloud architects.",
+    "joinUrl": "https://www.reddit.com/r/googlecloud/",
+    "tags": [
+      "googlecloud",
+      "gcp",
+      "cloud",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-18",
+    "title": "Grafana Community Discord",
+    "platform": "Discord",
+    "category": "Observability & SRE",
+    "memberCount": "25,000+ members",
+    "description": "The premier server for observability enthusiasts working with Grafana dashboards, Loki log aggregation, Tempo tracing, and Mimir.",
+    "joinUrl": "https://discord.gg/grafana",
+    "tags": [
+      "grafana",
+      "observability",
+      "discord",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-19",
+    "title": "r/ansible Community",
+    "platform": "Reddit",
+    "category": "Ansible Automation",
+    "memberCount": "82,000+ members",
+    "description": "Focus group for Red Hat Ansible automation, playbooks, roles, AWX/Tower administration, and configuration management at scale.",
+    "joinUrl": "https://www.reddit.com/r/ansible/",
+    "tags": [
+      "ansible",
+      "automation",
+      "reddit",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-20",
+    "title": "Ansible Community Discord",
+    "platform": "Discord",
+    "category": "Ansible Automation",
+    "memberCount": "15,000+ members",
+    "description": "Interactive real-time community for Ansible users to share playbooks, debug tasks, and discuss infrastructure automation modules.",
+    "joinUrl": "https://discord.gg/ansible",
+    "tags": [
+      "ansible",
+      "automation",
+      "discord",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-telegram-21",
+    "title": "Linux & SysAdmin Telegram",
+    "platform": "Telegram",
+    "category": "Linux & Kernel",
+    "memberCount": "65,000+ members",
+    "description": "Worldwide Linux channel delivering daily administration tips, shell scripting snippets, security advisories, and kernel updates.",
+    "joinUrl": "https://t.me/linux",
+    "tags": [
+      "linux",
+      "telegram",
+      "sysadmin",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-22",
+    "title": "r/sre Community",
+    "platform": "Reddit",
+    "category": "Observability & SRE",
+    "memberCount": "55,000+ members",
+    "description": "Specialized hub for Site Reliability Engineers discussing SLOs/SLAs, incident response, chaos engineering, on-call culture, and post-mortems.",
+    "joinUrl": "https://www.reddit.com/r/sre/",
+    "tags": [
+      "sre",
+      "reliability",
+      "reddit",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-23",
+    "title": "GitLab Community Discord",
+    "platform": "Discord",
+    "category": "DevOps & CI/CD",
+    "memberCount": "20,000+ members",
+    "description": "Real-time hub for GitLab CI/CD pipeline builders, DevOps practitioners, self-hosted runner administrators, and open-source contributors.",
+    "joinUrl": "https://discord.gg/gitlab",
+    "tags": [
+      "gitlab",
+      "cicd",
+      "discord",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-24",
+    "title": "r/linuxadmin Community",
+    "platform": "Reddit",
+    "category": "Linux & Kernel",
+    "memberCount": "120,000+ members",
+    "description": "Enterprise Linux systems administration community focusing on RHEL, Debian, Ubuntu server clustering, storage, and networking.",
+    "joinUrl": "https://www.reddit.com/r/linuxadmin/",
+    "tags": [
+      "linuxadmin",
+      "linux",
+      "sysadmin",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-25",
+    "title": "Linux Discord Community",
+    "platform": "Discord",
+    "category": "Linux & Kernel",
+    "memberCount": "70,000+ members",
+    "description": "Broad Linux server and desktop enthusiast server offering live support channels for bash scripting, kernel debugging, and server setups.",
+    "joinUrl": "https://discord.gg/linux",
+    "tags": [
+      "linux",
+      "discord",
+      "sysadmin",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-telegram-26",
+    "title": "Cloud Native Telegram",
+    "platform": "Telegram",
+    "category": "Cloud Native",
+    "memberCount": "22,000+ members",
+    "description": "Curated channel highlighting CNCF landscape developments, microservices architecture patterns, and cloud-native computing trends.",
+    "joinUrl": "https://t.me/cloudnative",
+    "tags": [
+      "cloudnative",
+      "telegram",
+      "microservices",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-27",
+    "title": "r/PrometheusMonitoring Community",
+    "platform": "Reddit",
+    "category": "Observability & SRE",
+    "memberCount": "22,000+ members",
+    "description": "Discussion board for Prometheus metrics collection, PromQL query optimization, Alertmanager routing, and exporter configuration.",
+    "joinUrl": "https://www.reddit.com/r/PrometheusMonitoring/",
+    "tags": [
+      "prometheus",
+      "monitoring",
+      "reddit",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-discord-28",
+    "title": "The DevOps Lounge Discord",
+    "platform": "Discord",
+    "category": "DevOps & CI/CD",
+    "memberCount": "18,000+ members",
+    "description": "Casual yet highly technical community lounge for DevOps engineers to conduct mock interviews, review architecture diagrams, and network.",
+    "joinUrl": "https://discord.gg/devopslounge",
+    "tags": [
+      "devopslounge",
+      "discord",
+      "mentorship",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-reddit-29",
+    "title": "r/gitlab Community",
+    "platform": "Reddit",
+    "category": "DevOps & CI/CD",
+    "memberCount": "28,000+ members",
+    "description": "Dedicated community covering GitLab CI/CD, DevSecOps pipelines, Auto DevOps, Kubernetes integration, and instance governance.",
+    "joinUrl": "https://www.reddit.com/r/gitlab/",
+    "tags": [
+      "gitlab",
+      "devsecops",
+      "reddit",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
+  },
+  {
+    "id": "devops-cloud-architect-hub-telegram-30",
+    "title": "DevOps News & Feed Telegram",
+    "platform": "Telegram",
+    "category": "DevOps & CI/CD",
+    "memberCount": "17,000+ members",
+    "description": "Live feed of breaking DevOps tool releases, GitOps best practices, architectural case studies, and engineering blogs.",
+    "joinUrl": "https://t.me/devops_feed",
+    "tags": [
+      "devops",
+      "telegram",
+      "news",
+      "verified"
+    ],
+    "verified": true,
+    "featured": true
   }
 ]
