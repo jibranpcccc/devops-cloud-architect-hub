@@ -23,7 +23,7 @@
     "category": "DevOps & CI/CD",
     "memberCount": "45,000+ members",
     "description": "Real-time voice and text chat community for DevOps engineers, featuring dedicated channels for Kubernetes, Terraform, and cloud infrastructure.",
-    "joinUrl": "https://discord.gg/devops",
+    "joinUrl": "https://discord.gg/devcord",
     "tags": [
       "devops",
       "discord",
@@ -57,7 +57,7 @@
     "category": "Kubernetes",
     "memberCount": "35,000+ members",
     "description": "Active community server connecting K8s operators, developers, and maintainers for live troubleshooting and architectural discussions.",
-    "joinUrl": "https://discord.gg/kubernetes",
+    "joinUrl": "https://discuss.kubernetes.io",
     "tags": [
       "kubernetes",
       "k8s",
@@ -324,12 +324,12 @@
   },
   {
     "id": "devops-cloud-architect-hub-discord-20",
-    "title": "Ansible Community Discord",
-    "platform": "Discord",
+    "title": "r/ansible Automation & Infrastructure",
+    "platform": "Reddit",
     "category": "Ansible Automation",
     "memberCount": "15,000+ members",
     "description": "Interactive real-time community for Ansible users to share playbooks, debug tasks, and discuss infrastructure automation modules.",
-    "joinUrl": "https://discord.gg/ansible",
+    "joinUrl": "https://www.reddit.com/r/ansible/",
     "tags": [
       "ansible",
       "automation",
@@ -465,7 +465,7 @@
     "category": "DevOps & CI/CD",
     "memberCount": "18,000+ members",
     "description": "Casual yet highly technical community lounge for DevOps engineers to conduct mock interviews, review architecture diagrams, and network.",
-    "joinUrl": "https://discord.gg/devopslounge",
+    "joinUrl": "https://discord.gg/devcordlounge",
     "tags": [
       "devopslounge",
       "discord",
