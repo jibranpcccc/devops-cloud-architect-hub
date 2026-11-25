@@ -4,10 +4,17 @@
     <title>DevOps &amp; Cloud Architecture Hub</title>
     <link>https://jibranpcccc.github.io/devops-cloud-architect-hub/</link>
     <description>Verified community directory and updates.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 07:29:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 07:18:06 GMT</lastBuildDate>
     <atom:link href="https://jibranpcccc.github.io/devops-cloud-architect-hub/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                <item>
+      <title>📅 Today's Fresh Pick: r/docker Community (Reddit)</title>
+      <link>https://www.reddit.com/r/docker/</link>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/devops-cloud-architect-hub/#devops-cloud-architect-hub-reddit-8-2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 07:18:06 GMT</pubDate>
+      <description>Newly verified community added to DevOps &amp; Cloud Architecture Hub: Dedicated hub for Docker containerization, Dockerfiles, Compose setups, multi-stage builds, and microservices deployment strategies.</description>
+    </item>
+<item>
       <title>📅 Today's Fresh Pick: AWS Community Discord (Discord)</title>
       <link>https://discord.gg/aws</link>
       <guid isPermaLink="false">https://jibranpcccc.github.io/devops-cloud-architect-hub/#devops-cloud-architect-hub-discord-7-2026-11-24</guid>
@@ -174,13 +181,6 @@
       <guid isPermaLink="false">https://jibranpcccc.github.io/devops-cloud-architect-hub/#devops-cloud-architect-hub-reddit-20261027-1-2026-10-27</guid>
       <pubDate>Tue, 27 Oct 2026 06:00:22 GMT</pubDate>
       <description>Newly verified community added to DevOps &amp; Cloud Architecture Hub: A dedicated forum for major news, regulatory developments, and ethical issues in the tech ecosystem.</description>
-    </item>
-<item>
-      <title>📅 Today's Fresh Pick: OWASP CheatSheet Discussions (GitHub)</title>
-      <link>https://github.com/OWASP/CheatSheetSeries/discussions</link>
-      <guid isPermaLink="false">https://jibranpcccc.github.io/devops-cloud-architect-hub/#devops-cloud-architect-hub-github-20261026-1-2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 06:44:19 GMT</pubDate>
-      <description>Newly verified community added to DevOps &amp; Cloud Architecture Hub: Official community contributions and reviews on OWASP application security best practices.</description>
     </item>
   </channel>
 </rss>
